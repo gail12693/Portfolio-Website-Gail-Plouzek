@@ -1,28 +1,11 @@
-<template>
-  <div class="home-container">
-    <header>
-      <h1>Gail Plouzek - Aspiring Web Developer</h1>
-    </header>
-    <main>
-      <p>
-        Gail is a full-time IT student specializing in web development while
-        working as an administrative assistant. She balances her career and
-        family life, finding joy in her daughter's love for painting and crafts.
-      </p>
-      <nav>
-        <router-link to="/about">About</router-link>
-        <router-link to="/contact">Contact</router-link>
-      </nav>
-    </main>
-    <footer>
-      <p>Contact Gail: gailplouzek@gmail.com</p>
-    </footer>
-  </div>
-</template>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gail Plouzek</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  </head>  
+
 
 <script>
 export default {
@@ -59,3 +42,33 @@ footer p {
   margin-top: 30px;
 }
 </style>
+</head>
+
+<body>
+  <div class="home-container">
+    <header>
+      <h1>Gail Plouzek - Aspiring Web Developer</h1>
+      <nav>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      </nav>
+    </header>
+    <section>
+      <img src="Gail.PNG" alt="" />
+   </section>
+    <main>
+      <p>
+        Gail is a full-time IT student specializing in web development while
+        working as an administrative assistant. She balances her career and
+        family life, finding joy in her daughter's love for painting and crafts.
+      </p>
+      
+    </main>
+    <footer>
+      <p>Contact Gail: gailplouzek@gmail.com</p>
+    </footer>
+  </div>
+</body>
